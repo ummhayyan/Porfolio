@@ -1,0 +1,651 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    /* background-color: #EAEAEA;  */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    }
+/* nav ul{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+nav h1 {
+    /* font-weight: 900;
+    text-transform: uppercase; */
+    /* color:#854C27; */
+    font-size: 2.5rem;
+}
+.h1fida{
+    color:#AA8B49;
+}
+ul li {
+    list-style: none;
+}
+
+/* nav ul {
+    gap: 1.5rem;
+} */
+
+nav ul li {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #AA8B49;
+}
+
+nav a:hover {
+    color: #854C27;
+    /* border-bottom: 2px solid #854C27; */
+    
+
+}
+
+.menu {
+    display: none;
+    font-size: 2rem;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: none;
+}
+
+/* #home {
+     display: flex; 
+      justify-content: center;  
+      align-items: center; 
+} */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/images/whitekeyb.jpg);
+    z-index: 1;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+}
+
+.img {
+    padding: 4rem;
+}
+
+/* .hero-img {
+    height: 25rem;
+    width: 25rem;
+    box-shadow: 0px 2px 15px 2px #c29475;
+    border-radius: 6px;
+} */
+
+/* .intro {
+     color: #854C27;
+    z-index: 50;
+    font-size: 2rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
+} */
+#home {
+    background-color: #ADA8A3;
+    height: 100vh;
+    padding-top: 3rem;
+}
+.intro_h1 {
+    font-size: 5rem;
+    letter-spacing: 0.3rem;
+    }
+
+.intro_me {
+    line-height: 1rem;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+     color:  #8b5827;
+    }
+
+.hero1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero1 img {
+    height: 25rem;
+    width: 25rem;
+}
+
+.about1 {
+    width: 40rem;
+    height: 25rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px #c29475;
+}
+
+.about1 h1 {
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+.about1 p {
+    text-align: left;
+    padding: 0.3rem 1rem;
+    font-size: 1.5rem;
+    }
+
+
+.sections {
+    padding: 1rem 6rem;
+}
+
+.sections h2 {
+    text-align: center;
+    margin: 1rem;
+    font-size: 4rem;
+    color: #AA8B49;
+}
+
+#about {
+    height: 100vh;
+    padding-top: 3rem;
+    background-color: #fffcf8;
+}
+
+.about1_h2 {
+    display: flex;
+}
+
+.college-logo {
+    max-width: 100%;
+    height: auto;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+.ths{
+    width:6rem;
+    height: 6rem;
+}
+
+#education {
+    padding-top: 6rem;
+    background-color: #fffcf8;
+}
+
+
+.educationtypes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    /* padding-top: 1rem; */
+}
+.educontent{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+
+}
+
+.edusub {
+    margin-bottom: 2rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.5rem;
+    width: 35rem;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    box-shadow: 0 3px 10px #c29475;
+    border-radius: 11px;
+    padding: 20px;
+
+}
+
+.educontent p {
+    margin-top: 0.25rem;
+    font-size: smaller;
+}
+
+#skills {
+    height: 100vh;
+    background-color: #fffcf8;
+}
+
+.skills {
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skill-header {
+    margin-bottom: 1rem;
+}
+
+.skills-wrapper img {
+    padding: 1.25rem;
+}
+
+.icon {
+    width: 11.875rem;
+    height: 11.25rem;
+}
+
+#projects {
+    height: 100vh;
+}
+
+.projects {
+    background-color: #fffcf8;
+
+    padding: 32px 0;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+}
+
+.project-pic {
+    width: 65%;
+    height: 60%;
+}
+
+.projects-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    
+}
+
+.projects-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.project-container {
+    text-align: center;
+    width: 21.875rem;
+    height: 20rem;
+    padding: 1rem;
+}
+.project-container img{
+    height: 9rem;
+}
+
+.project-container p {
+    padding: 0.4rem;
+}
+
+.project-title {
+    margin-bottom: 0.5rem;
+}
+
+.project-details {
+    margin-bottom: 0.5rem;
+}
+
+.project-card {
+    background-color: #fff;
+
+    border-radius: 11px;
+    box-shadow: 0 3px 10px #c29475;
+    padding: 20px;
+    margin: 10px;
+}
+
+#contact .contact-sub .contact-icon {
+    height: 100px;
+    width: 100px;
+}
+
+#contact .contact-sub {
+    object-fit: contain;
+}
+
+#contact .contact-sub .contact-info {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* .contact-icon img {
+    width: 3rem;
+    height: 3rem;
+} */
+
+#contact {
+    padding-top: 6rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.contacttypes {
+    display: flex;
+    padding-top: 1rem;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contactsub {
+    margin-bottom: 2rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.5rem;
+    width: 20rem;
+    padding-right: 0.5rem;
+    display: flex;
+    gap: 1rem;
+    color: #341513;
+    box-shadow: 0 3px 10px #c29475;
+    border-radius: 11px;
+    padding: 20px;
+
+}
+
+.contactcontent {
+    padding-top: 0.5rem;
+
+}
+
+.gmail {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.loc {
+    width: 2rem;
+    height: 2rem;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+}
+
+.socicon {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.scroll-up {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+}
+
+.up-arrow {
+    width: 3rem;
+    height: 3rem;
+}
+
+footer {
+    background-color: #854C27;
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2rem 0 0;
+}
+
+@media screen and (max-width: 720px) {
+   
+    /* nav {
+        padding: 1.5rem 0.5rem;
+        
+         
+    } */
+    .about1 h1{
+        font-size: 3rem
+      }
+      nav li{
+        font-size: smaller;
+      }
+      .hero{
+        background-image: url(images/respon.jpg);
+      }
+      /* .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+       */
+    .hero1 {
+        margin-top: -4rem;
+        flex-direction: column;
+
+        gap: 8rem;
+        
+
+    }
+
+    /* .hero1 img {
+        height: 23rem;
+        width: 23rem;
+    } */
+
+    .intro_h1{
+        font-size: 3rem;
+        padding-left: 1rem;
+    }
+    .intro_me{
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        margin-top: 3rem;
+    }
+
+    .about1 {
+        margin-top: -7rem;
+        width: 20.5rem;
+    }
+    .about1 h2{
+        font-size: 3rem;
+    }
+    .sections{
+        padding: 1rem;
+    }
+    .college-logo{
+        width: 6rem;
+        height: 5rem;
+    }
+    .ths{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    #education h2 {
+        padding-top: 3rem;
+        font-size: 3rem;
+
+    }
+    .edusub{
+        display: flex;
+        gap: 2rem;
+        width: 25rem;
+    }
+    .edusub img{
+        padding-top: 0.5rem;
+    }
+    #projects{
+        height: auto;
+    }
+    .projects h2{
+        font-size: 3rem;
+        padding-top:3rem;
+    }
+
+    .projects-container {
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .project-container {
+        width: 15rem;
+        height: auto;
+
+      }
+      .project-container img{
+        height: 6rem;
+        width: 6rem;
+      }
+      .project-container h3 {
+        padding-top: 0.5rem;
+        font-size: 1rem;
+      }
+      .project-container p{
+        font-size: 0.8rem;
+        padding: 0.1rem;
+      }
+    .skills h2{
+        font-size: 3rem;
+    }
+    .icon {
+        width: 5.875rem;
+        height: 5.25rem;
+      }
+      .contacttypes{
+        flex-direction: column;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+      }
+    .contact h2{
+        font-size: 3rem;
+
+    }
+    .contact-sub{
+        width: max-content;
+    }
+}
+@media screen and (max-width: 420px) {
+    /* nav {
+        padding: 0.5rem 0.25rem; 
+         display: grid;
+        grid-template-columns: 1fr 2fr;
+    } */
+    nav h1{
+        font-size: 1rem;
+    }
+    nav ul{
+        /* display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-items: center;
+        height: fit-content; */
+    }
+    nav ul li a{
+        font-size: 0.5rem;
+    }
+    .hero{
+        background-image: url(images/respon.jpg);
+      }
+
+    /* .hero1 img {
+      height: 18rem;
+      width: 16.5rem;
+    } */
+  
+    .about1 {
+      width: 16.5rem;
+    }
+    /* .about1 h2{
+        font-size: 2rem;
+    } */
+    .sections{
+        padding: 1rem;
+    }
+    
+    #education h2{
+        font-size:2rem ;
+    }
+    .edusub{
+        width: 14rem;
+        justify-content: center;
+        align-items: center;
+    }
+    .educontent h3{
+        font-size: smaller;
+    }
+    .educontent p{
+        font-size: smaller;
+    }
+    /* .projects h2{
+        font-size: 2rem;
+    } */
+    .project-container {
+        width: 14rem;
+        height:auto ;
+
+      }
+      .project-container img{
+        height: 4rem;
+        width: 4rem;
+      }
+      .project-container h3 {
+        padding-top: 0.5rem;
+        font-size: 0.75rem;
+      }
+      .project-container p{
+        font-size: 0.6rem;
+        padding: 0.1rem;
+      }
+      .sections h2{
+        font-size: 2rem;
+      }
+      .gmail{
+        height:1.5rem ;
+        width:1.5rem;
+      }
+      .loc {
+        width: 1rem;
+        height: 1rem;
+    }
+    .mailto{
+        font-size: smaller;
+    }
+    .contactcontent{
+        font-size: smaller;
+        /* height: fit-content; */
+        width: 15rem;
+        align-content: center;
+    }
+     .contactsub{
+        
+        width: 14rem;
+    } 
+
+
+      
+      
+  
+    
+  } 
